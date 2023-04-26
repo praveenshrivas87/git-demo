@@ -5,7 +5,7 @@ public class Main {
     public void addData(String data){
         System.out.println("Data = "+ data);
 
-        if(data.contains("Java Expert")){
+        if(data.contains(Constant.DATA_TYPE)){
             System.out.println("Welcome");
         }
     }
