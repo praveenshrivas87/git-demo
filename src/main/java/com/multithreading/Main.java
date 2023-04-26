@@ -10,6 +10,10 @@ public class Main {
         }
     }
 
+    public void addedMethod(){
+        System.out.println("Welcome");
+    }
+    
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
